@@ -34,6 +34,6 @@ internal class Program
 
         Sliptick Son3 = new Sliptick("00112", "Son moi cao cap", "YSL", "Black", new DateTime(2009, 4, 5));
         Console.WriteLine(Son3);
-        
+        Console.WriteLine(Son2.getID()); // ĐỐI với các dòng private ta cấp cho 1 hàm get public để lấy ra
     }
 }
