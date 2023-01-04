@@ -43,15 +43,21 @@ namespace OOP.OOP
 
         // sử dùng hàm set get để tạo 1 đối tượng ( học cho biết th )
 
-        public void setID (string ID)
+        public void setID (string ID) // hàm set
         {
             this.ID = ID;
         }
 
-        public string getID()
+        public string getID() // hàm get
         {
             return this.ID;
         }
+
+        public string NAME // thuộc tính NAME mới có set get
+        {
+            get { return this.name; }
+            set { name = value; }
+        } // đây là thuộc tính NAME để lấy name vì name là private ta dùng thuộc tính này bên hàm program tương tự
 
         public override string? ToString()
         {
